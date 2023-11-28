@@ -1,13 +1,37 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package atencion;
 
 /**
  *
  * @author Student
  */
-public class OrdenAtencion {
+import java.util.ArrayList;
+
+
+public class OrdenAtencion extends Paciente{
+
+    ArrayList <String> pacientes ;
+
+    public OrdenAtencion(ArrayList<String> pacientes) {
+        this.pacientes = paciente;
+    }
     
-}
+    pacientes.add = Paciente
+   
+   
+    
+            
+    public boolean atendito(String HoraSalida){
+    if(HoraSalida Equals.getHoraSalida !Empity("")){
+        
+     return true;
+    }
+       return false;
+    
+    }
+
+  
+    
+  
+    }
+    

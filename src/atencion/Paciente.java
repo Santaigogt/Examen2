@@ -11,16 +11,16 @@ public class Paciente {
     private String cedula;
     private String Nombre;
     private Date Fecha;
-    private String horaEntrada;
-    private String horaSalida;
-    private String clasifiicacion;
+    private String HoraEntrada;
+    private String HoraSalida;
+    private String Clasifiicacion;
 
     public String getClasifiicacion() {
-        return clasifiicacion;
+        return Clasifiicacion;
     }
 
     public void setClasifiicacion(String clasifiicacion) {
-        this.clasifiicacion = clasifiicacion;
+        this.Clasifiicacion = clasifiicacion;
     }
 
     public String getCedula() {
@@ -36,35 +36,35 @@ public class Paciente {
     }
 
     public String getHoraEntrada() {
-        return horaEntrada;
+        return HoraEntrada;
     }
 
     public String getHoraSalida() {
-        return horaSalida;
+        return HoraSalida;
     }
-  public Paciente(String cedula, String Nombre, Date Fecha, String horaEntrada, String horaSalida, String clasifiicacion) {
+  public Paciente(String cedula, String Nombre, Date Fecha, String HoraEntrada, String HoraSalida, String Clasifiicacion) {
         this.cedula = cedula;
         this.Nombre = Nombre;
         this.Fecha = Fecha;
-        this.horaEntrada = horaEntrada;
-        this.horaSalida = horaSalida;
-        this.clasifiicacion = clasifiicacion;
+        this.HoraEntrada = HoraEntrada;
+        this.HoraSalida = HoraSalida;
+        this.Clasifiicacion = Clasifiicacion;
     }
   
-    public Paciente(String cedula, String Nombre, Date Fecha, String horaEntrada, String horaSalida) {
+    public Paciente(String cedula, String Nombre, Date Fecha, String HoraEntrada, String HoraSalida) {
         this.cedula = cedula;
         this.Nombre = Nombre;
         this.Fecha = Fecha;
-        this.horaEntrada = horaEntrada;
-        this.horaSalida = horaSalida;
-        this.clasifiicacion = "Verde";
+        this.HoraEntrada = HoraEntrada;
+        this.HoraSalida = HoraSalida;
+        this.Clasifiicacion = "Verde";
     }
 
   
 
     @Override
     public String toString() {
-        return "Paciente{" + "cedula=" + cedula + ", Nombre=" + Nombre + ", Fecha=" + Fecha + ", horaEntrada=" + horaEntrada + ", horaSalida=" + horaSalida + ", clasifiicacion=" + clasifiicacion + '}';
+        return "Paciente{" + "cedula=" + cedula + ", Nombre=" + Nombre + ", Fecha=" + Fecha + ", horaEntrada=" + HoraEntrada + ", horaSalida=" + HoraSalida + ", clasifiicacion=" + Clasifiicacion + '}';
     }
 
 }
